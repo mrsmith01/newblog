@@ -93,7 +93,7 @@ class NewPost(BlogHandler):
             self.render("newpost.html", subject=subject, content=content, error=error)
 
 
-app = webapp2.WSGIApplication([ ('/', NewPost),
+app = webapp2.WSGIApplication([ ('/', BlogFront),
                                 ('/blog/?', BlogFront),
                                 ('/blog/([0-9]+)', PostPage),
                                 ('/blog/newpost', NewPost),
