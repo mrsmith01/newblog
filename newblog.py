@@ -2,8 +2,8 @@ import os
 import re
 from string import letters
 
-import jinja2
 import webapp2
+import jinja2
 
 from google.appengine.ext import db
 
