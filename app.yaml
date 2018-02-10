@@ -7,7 +7,7 @@ handlers:
   script: newblog.app
 
 - url: /static
-  static_dir: style
+  static_dir: static
 
 libraries:
 - name: jinja2
